@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GXUI_Demo", "GXUI_Demo\GXUI_Demo.vcxproj", "{AF42FB13-6569-40BF-AB8A-605CB410330D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlugIN", "..\dll\PlugIN\PlugIN\PlugIN.vcxproj", "{F72E33F3-1302-4AF6-AD9C-E60D2302577B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF42FB13-6569-40BF-AB8A-605CB410330D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AF42FB13-6569-40BF-AB8A-605CB410330D}.Debug|Win32.Build.0 = Debug|Win32
+		{AF42FB13-6569-40BF-AB8A-605CB410330D}.Release|Win32.ActiveCfg = Release|Win32
+		{AF42FB13-6569-40BF-AB8A-605CB410330D}.Release|Win32.Build.0 = Release|Win32
+		{F72E33F3-1302-4AF6-AD9C-E60D2302577B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F72E33F3-1302-4AF6-AD9C-E60D2302577B}.Debug|Win32.Build.0 = Debug|Win32
+		{F72E33F3-1302-4AF6-AD9C-E60D2302577B}.Release|Win32.ActiveCfg = Release|Win32
+		{F72E33F3-1302-4AF6-AD9C-E60D2302577B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

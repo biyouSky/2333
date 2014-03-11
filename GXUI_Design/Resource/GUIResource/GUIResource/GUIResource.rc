@@ -1,0 +1,94 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+
+
+IDB_BUTTON1_DISABLE     BITMAP                  "..\\..\\Button\\button_disable.bmp"
+IDB_BUTTON1_HOT         BITMAP                  "..\\..\\Button\\button_hot.bmp"
+IDB_BUTTON1_DOWN        BITMAP                  "..\\..\\Button\\button_down.bmp"
+IDB_BUTTON1_NORMAL      BITMAP                  "..\\..\\Button\\button_normal.bmp"
+
+IDB_CHECKBOX1_NOR       BITMAP                  "..\\..\\CheckButton\\checkbox_nor.bmp"
+IDB_CHECKBOX1_HOT       BITMAP                  "..\\..\\CheckButton\\checkbox_hot.bmp"
+IDB_CHECKBOX1_TICK_NOR  BITMAP                  "..\\..\\CheckButton\\checkbox_tick_nor.bmp"
+IDB_CHECKBOX1_TICK_HOT  BITMAP                  "..\\..\\CheckButton\\checkbox_tick_hot.bmp"
+
+
+IDR_MAIN_BAR            RCDATA DISCARDABLE		"..\\..\\MenuBar\\main_bar.png"
+IDB_HOT_EFFECT			BITMAP                  "..\\..\\MenuBar\\hot_effect.bmp"
+IDB_HOME_MENU			RCDATA DISCARDABLE      "..\\..\\MenuBar\\home.png"
+IDB_HOT_EFFECT2			BITMAP                  "..\\..\\MenuBar\\hot_effect2.bmp"
+
+
+IDB_ARROW1_DOWN			RCDATA DISCARDABLE      "..\\..\\Arrow\\arrow_down_32.png"
+
+IDB_ARROW2_UP			RCDATA DISCARDABLE      "..\\..\\Arrow\\arrow_up_128.png"
+IDB_ARROW2_DOWN			RCDATA DISCARDABLE      "..\\..\\Arrow\\arrow_down_128.png"
+IDB_ARROW2_LEFT			RCDATA DISCARDABLE      "..\\..\\Arrow\\arrow_right_128.png"
+IDB_ARROW2_RIGHT		RCDATA DISCARDABLE      "..\\..\\Arrow\\arrow_right_128.png"
+
+IDB_OK					RCDATA DISCARDABLE		"..\\..\\Status\\ok.png"
+IDB_CLOSE				RCDATA DISCARDABLE		"..\\..\\Status\\close.png"
+
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
