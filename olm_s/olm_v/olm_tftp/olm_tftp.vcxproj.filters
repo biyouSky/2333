@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GX_LIB">
+      <UniqueIdentifier>{aba629e9-d904-45c5-b48f-96eb5ad2a67b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GX_LIB\GXUI">
+      <UniqueIdentifier>{9c6144e4-6fab-4083-b7d4-b8206bd63d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GX_LIB\Utility">
+      <UniqueIdentifier>{f269bd2d-b409-4ce6-8702-f826d5851158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GX_LIB\FILE_IO">
+      <UniqueIdentifier>{dc446356-1607-4f98-8693-a777bc0e5f7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GX_LIB\Communication_IO">
+      <UniqueIdentifier>{adede537-586d-4973-991d-4b19b3d6af76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="olm_v">
+      <UniqueIdentifier>{8a755f74-67fa-4953-a942-e82227e16e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="olm_c">
+      <UniqueIdentifier>{b955bf09-bc06-4007-8695-b6bc44041edf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\GXUI\UI2D.h">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\GXUI\UI3D.h">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\GXUI\UIBase.h">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\GXUI\UIPlugIN.h">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\GXUI\UIRender.h">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\GXUI\UIUtil.h">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\GXUI\UIWidget.h">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\GXUI\UIWinShell.h">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\Utility\GXUtil.h">
+      <Filter>GX_LIB\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\FILE_IO\GXTXT.h">
+      <Filter>GX_LIB\FILE_IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\Communication_IO\GXUDP.h">
+      <Filter>GX_LIB\Communication_IO</Filter>
+    </ClInclude>
+    <ClInclude Include="olm_tftp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UITFTP.h">
+      <Filter>olm_v</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\olm_c\OLMProControl.h">
+      <Filter>olm_c</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="olm_tftp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\GXUI\UI2D.cpp">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\GXUI\UI3D.cpp">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\GXUI\UIBase.cpp">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\GXUI\UIPlugIN.cpp">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\GXUI\UIRender.cpp">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\GXUI\UIUtil.cpp">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\GXUI\UIWidget.cpp">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\GXUI\UIWinShell.cpp">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\Utility\GXUtil.cpp">
+      <Filter>GX_LIB\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\FILE_IO\GXTXT.cpp">
+      <Filter>GX_LIB\FILE_IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\Communication_IO\GXUDP.cpp">
+      <Filter>GX_LIB\Communication_IO</Filter>
+    </ClCompile>
+    <ClCompile Include="UITFTP.cpp">
+      <Filter>olm_v</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\olm_c\OLMProControl.cpp">
+      <Filter>olm_c</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="olm_tftp.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

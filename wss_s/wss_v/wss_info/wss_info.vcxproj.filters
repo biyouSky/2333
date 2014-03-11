@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="wss_c">
+      <UniqueIdentifier>{6d6e8f10-8b77-47c1-b7d0-d4020ba92ba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wss_v">
+      <UniqueIdentifier>{cb8e5e9f-fbd9-479e-8473-010bd390d637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GX_LIB">
+      <UniqueIdentifier>{e61095be-3bcc-4aa7-b203-3739f687310d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GX_LIB\GXUI">
+      <UniqueIdentifier>{237854da-6fe0-4742-84c0-23e85004ee9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GX_LIB\Utility">
+      <UniqueIdentifier>{8926714e-5530-4fa5-8add-ddea15208042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GX_LIB\FILE_IO">
+      <UniqueIdentifier>{6d57ed86-5cc8-4322-8697-80c6f16d15fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GX_LIB\Communication_IO">
+      <UniqueIdentifier>{e9fab045-6bf8-4055-bc1e-bc61a810363b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\GXUI\UIWinShell.h">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\GXUI\UI2D.h">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\GXUI\UI3D.h">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\GXUI\UIBase.h">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\GXUI\UIPlugIN.h">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\GXUI\UIRender.h">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\GXUI\UIUtil.h">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\GXUI\UIWidget.h">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\Utility\GXUtil.h">
+      <Filter>GX_LIB\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\FILE_IO\GXTXT.h">
+      <Filter>GX_LIB\FILE_IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\Communication_IO\GXUDP.h">
+      <Filter>GX_LIB\Communication_IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\Communication_IO\GXSerial.h">
+      <Filter>GX_LIB\Communication_IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wss_c\WSSProBaseControl.h">
+      <Filter>wss_c</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wss_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIInfo.h">
+      <Filter>wss_v</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wss_c\WSSConfigControl.h">
+      <Filter>wss_c</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\GXUI\UIWinShell.cpp">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\GXUI\UI2D.cpp">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\GXUI\UI3D.cpp">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\GXUI\UIBase.cpp">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\GXUI\UIPlugIN.cpp">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\GXUI\UIRender.cpp">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\GXUI\UIUtil.cpp">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\GXUI\UIWidget.cpp">
+      <Filter>GX_LIB\GXUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\Utility\GXUtil.cpp">
+      <Filter>GX_LIB\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\FILE_IO\GXTXT.cpp">
+      <Filter>GX_LIB\FILE_IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\Communication_IO\GXSerial.cpp">
+      <Filter>GX_LIB\Communication_IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\Communication_IO\GXUDP.cpp">
+      <Filter>GX_LIB\Communication_IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wss_c\WSSProBaseControl.cpp">
+      <Filter>wss_c</Filter>
+    </ClCompile>
+    <ClCompile Include="wss_info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIInfo.cpp">
+      <Filter>wss_v</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wss_c\WSSConfigControl.cpp">
+      <Filter>wss_c</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="wss_info.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GX_LIB">
+      <UniqueIdentifier>{ef76aa83-e9fc-4539-8330-9b57f5ee801e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GX_LIB\Utility">
+      <UniqueIdentifier>{00c6cac9-3d7e-410e-bccb-8129e6fa4226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GX_LIB\FILE_IO">
+      <UniqueIdentifier>{852041ae-a972-4eaf-97a3-24f2bcdf60ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GX_LIB\Communication_IO">
+      <UniqueIdentifier>{ab8fc9e9-37a7-4ffe-bb47-92ce4dec2871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="olm_m">
+      <UniqueIdentifier>{5786bc01-864a-48e1-af6c-840a2cf4e81f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\Utility\GXUtil.h">
+      <Filter>GX_LIB\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\FILE_IO\GXTXT.h">
+      <Filter>GX_LIB\FILE_IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\Communication_IO\GXSerial.h">
+      <Filter>GX_LIB\Communication_IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GX_LIB\Communication_IO\GXUDP.h">
+      <Filter>GX_LIB\Communication_IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OLMConfig.h">
+      <Filter>olm_m</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="olm_config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\Utility\GXUtil.cpp">
+      <Filter>GX_LIB\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\FILE_IO\GXTXT.cpp">
+      <Filter>GX_LIB\FILE_IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\Communication_IO\GXSerial.cpp">
+      <Filter>GX_LIB\Communication_IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GX_LIB\Communication_IO\GXUDP.cpp">
+      <Filter>GX_LIB\Communication_IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OLMConfig.cpp">
+      <Filter>olm_m</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
